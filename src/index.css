@@ -54,10 +54,10 @@
   --popover-foreground: oklch(0.141 0.005 285.823);
   --primary: #FFB6C1;
   --primary-foreground: #222;
-  --secondary: oklch(0.967 0.001 286.375);
-  --secondary-foreground: oklch(0.21 0.006 285.885);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
+  --secondary: #222;
+  --secondary-foreground: #fff;
+  --muted: #FFF;
+  --muted-foreground: #222;
   --accent: oklch(0.967 0.001 286.375);
   --accent-foreground: oklch(0.21 0.006 285.885);
   --destructive: oklch(0.577 0.245 27.325);
@@ -121,4 +121,9 @@
     @apply bg-background text-foreground;  
     font-family: 'Helvetica Neue' !important;                                       
   }
+  .container{
+    max-width: 1598px;
+    width: 100%;
+  }
 }
+
